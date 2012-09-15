@@ -15,7 +15,7 @@
 			$("#slider").nivoSlider();
 
 			var altura = $("#todo").height();
-			$("#barracentral").css("height", altura+30);
+			$("#barracentral").css("height", altura + 35);
 
 			var imageneshome = $("#imageneshome img");
 			imageneshome.css("opacity", 0.5);
@@ -35,10 +35,6 @@
 			border-radius: 5px;
 			box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
 		}
-
-		#todo img:hover{
-			border: 5px solid #97c93d;
-		}
 </style>
 </head>
 <body>
@@ -49,11 +45,9 @@
 		<?php include("includes/menu.php"); ?>
 		<section id="todo">
 			<h1>Quienes Somos</h1>
-			<p><img src="images/quienes-somos.jpg" class="Lpic">sdfajlkdjal sdflka sdflkajsdlkfja lsjlk asdjlfka sdlkfualsdf lasdf asdlk jclkjdslk fjaslkd fjlkasj dflkajsdlkfjalksdfjlkaj sdfjaskldfj alsdjfl kasdjfk asdlfkja slkdfjal sdfiouwerquweruq wajsd fajsdf</p>
-			<p>asdkjasd falksdf asdufqw elrjqwle jrlq,fna,dnfas,mdnf asdfkjlasjdfauieouqoiwruiouewrasdf jaslkdjfqwerqwopeirq wdkfñ lasdifopaipoeirpkñldsfkñlasdk fñlasdfñiasdfiaposdifpoaipoeipof akñsldfkñlasdf asdifpoa spkelñaksñldk fadsdf askdf aksdñl i sivos dfsdfkgñlskdf gskdfogispodf gñlskdf ñgloperipotwierpotkw ñelrtk ñwerktw ierposkdfl</p>
-			<p>ksdfha kshfkajsd fwei rklwejklr jaklsdfj alksdjf asdufasdjflkas dlfk ajsdlfjalksd jfasd</p>
-			<p>sdfajlkdjal sdflka sdflkajsdlkfja lsjlk asdjlfka sdlkfualsdf lasdf asdlk jclkjdslk fjaslkd fjlkasj dflkajsdlkfjalksdfjlkaj sdfjaskldfj alsdjfl kasdjfk asdlfkja slkdfjal sdfiouwerquweruq wajsd fajsdf</p>
-			<p>asdkjasd falksdf asdufqw elrjqwle jrlq,fna,dnfas,mdnf asdfkjlasjdfauieouqoiwruiouewrasdf jaslkdjfqwerqwopeirq wdkfñ lasdifopaipoeirpkñldsfkñlasdk fñlasdfñiasdfiaposdifpoaipoeipof akñsldfkñlasdf asdifpoa spkelñaksñldk fadsdf askdf aksdñl i sivos dfsdfkgñlskdf gskdfogispodf gñlskdf ñgloperipotwierpotkw ñelrtk ñwerktw ierposkdfl</p>
+			<p><img src="images/quienes-somos.jpg" class="Lpic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit erat ut odio aliquam eleifend dignissim vel sem. Duis quis mattis nibh. Phasellus purus lectus, commodo non tempor ac, sollicitudin sit amet nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc luctus tortor at ante porta euismod. Proin viverra mauris vel elit porttitor sodales. Cras pretium adipiscing pharetra.</p>
+			<p>Suspendisse pellentesque facilisis neque ut imperdiet. Aenean hendrerit lobortis semper. Sed sed orci et tellus semper accumsan non non lacus. Pellentesque metus orci, faucibus at placerat eu, rutrum sit amet risus. Cras at magna ut metus laoreet accumsan. Fusce egestas velit interdum orci euismod et semper enim rhoncus. Suspendisse velit nisl, mattis vitae mattis vel, faucibus posuere diam. In ac quam eget arcu rutrum fermentum.</p>
+			<p>Praesent placerat aliquet neque sed bibendum. Pellentesque imperdiet eleifend aliquet. Aliquam laoreet rhoncus scelerisque. Maecenas erat massa, sollicitudin in pharetra quis, tempor pellentesque felis. Etiam consectetur felis metus, at consectetur tortor. Vestibulum molestie egestas congue. Duis vitae turpis dolor, eget faucibus lacus. Suspendisse vel mi ligula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Nullam lacinia nunc sed nibh posuere dapibus. Fusce eu tempus magna.</p>
 		</section>
 		<?php include("includes/footer.php"); ?>
 	</div>

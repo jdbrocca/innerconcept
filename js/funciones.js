@@ -45,4 +45,5 @@ $(document).on("ready", function(){
 	    botonseleccionado.addClass("botonhover");
 	    botonseleccionado.css("color", "#97c93c");
 	}
+
 })

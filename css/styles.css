@@ -2,7 +2,7 @@ html, body{
 	background-image: url('../images/background2.jpg');
 	background-color: #0f0e0c;
 	color: #FFF;
-	/*font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+	font-family: Tahoma;
 	font-size: 16px;
 	height: 100%;
 }
@@ -10,7 +10,6 @@ html, body{
 
 #barracentral{
 	background-color: #303030; 
-	min-height: 435px;
 	position: absolute;
 	top: 205px;
 	width: 100%;
@@ -31,7 +30,6 @@ html, body{
 }
 
 #footer{
-	display: inline-block;
 	font-size: 14px;
 	margin-top: 30px;
 	position: relative;
@@ -92,13 +90,14 @@ html, body{
 }
 
 #imageneshome img{
-	/*border: 3px solid #FFF;*/
+	border: 3px solid #FFF;
 	/*border-radius: 10px;*/
-	height: 108px;
+	margin: 0px;
+	padding: 0px;
 }
 
 #imageneshome span{
-	font-size: 16px;
+	font-size: 14px;
 	margin: 0px;
 }
 
@@ -108,6 +107,12 @@ html, body{
 	height: auto;
 	position: relative;
 	width: 400px;
+}
+
+#leftside .imagenhome{
+	display: inline-block;
+	height: 135px;
+	margin-right: 10px;
 }
 
 #principal{
@@ -127,7 +132,7 @@ html, body{
 
 #todo{
 	color: #FFF;
-	min-height: 390px;
+	min-height: 405px;
 }
 
 #todo h1{
@@ -136,12 +141,12 @@ html, body{
 
 .Rpic{
 	float: right;
-	margin: 0px 0px 10px 10px;
+	margin: 0px 0px 10px 20px;
 }
 
 .Lpic{
 	float: left;
-	margin: 0px 10px 10px 0px;
+	margin: 0px 20px 10px 0px;
 }
 
 /* -------------- MENU HORIZONTAL -------------- */
@@ -163,7 +168,7 @@ html, body{
 
 #menu a{
 	color: #FFF;
-	padding: 10px 39px;
+	padding: 10px 44px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -182,4 +187,64 @@ html, body{
 	color: #97c93c;
 	text-align: center;
 	text-decoration: none;	
+}
+
+/*  -------- SLIDER -------- */
+#s3slider {
+    width: 900px; /* important to be same as image width */
+    height: 400px; /* important to be same as image height */
+    position: relative; /* important */
+	overflow: hidden; /* important */
+	margin: 0 auto;
+}
+ 
+#s3sliderContent {
+    width: 900px; /* important to be same as image width or wider */
+    position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+ 
+.s3sliderImage {
+    float: left;
+    position: relative;
+	display: none;
+}
+ 
+.s3sliderImage span {
+    position: absolute;
+	font: 14px Tahoma;
+    padding: 10px 13px;
+    width: 694px;
+    background-color: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+    opacity: 0.7;
+    color: #97c93c;
+    display: none;
+}
+ 
+.clear {
+    clear: both;
+}
+
+.s3sliderImage span strong {
+    font-size: 16px;
+    color: #FFF;
+}
+.left {
+	position: absolute;
+	top: 0;
+    left: 0;
+	width: 120px !important;
+	height: 400px;
+}
+.right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 120px !important;
+	height: 385px;
 }
