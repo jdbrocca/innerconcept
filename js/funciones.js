@@ -1,16 +1,3 @@
-function movsubt(){
-	var subt = $("#header #subtitulo2");
-	subt.css("left", 530);
-	subt.animate({
-		opacity: 0.8,
-	}, 2000, function(){
-		subt.animate({
-			opacity: 0,
-			left: '-=250',
-		}, 4000);
-	});
-}
-
 function crecermedio(){
 	var barracentral = $("#barracentral");
 	barracentral.css({
@@ -27,23 +14,35 @@ function crecermedio(){
 
 $(document).on("ready", function(){
 
-	var subt = $("#header #subtitulo2");
-	subt.css("opacity", 0);
+	$("#todo").css("opacity", 0)
 
-	movsubt();
-	
-	setInterval(function() {
-	    movsubt();
-	}, 10000);
-			
-	crecermedio();
+	setTimeout(function(){
+		var altura = $("#todo").height();
+		$("#barracentral").css("height", altura+35);
+		crecermedio();
+		$("#todo").animate({
+			opacity: 1,
+		}, 2000);
+	}, 500);
 
 	var pathname = window.location.pathname;
+	var botonmenu = $("nav#menu ul li a");
 
-	if (/quienes-somos.php/.test(pathname)){
-	    var botonseleccionado = $("nav#menu ul li a[href='quienes-somos.php']");
-	    botonseleccionado.addClass("botonhover");
-	    botonseleccionado.css("color", "#97c93c");
-	}
+	$.each(botonmenu, function(){
+		//alert($(this).attr("href"));
+		var url = $(this).attr("href");
+		if (url == pathname.substr(pathname.lastIndexOf("/")+1)){
+			var botonmenu2 = $("nav#menu ul li a[href='"+url+"']");
+		    botonmenu2.addClass("botonhover");
+		    botonmenu2.css("color", "#97c93c");
+		}
+	});
+
+	/*if (/quienes-somos.php/.test(pathname)){
+		var botonmenu2 = $("nav#menu ul li a[href]");
+		alert(botonmenu2);
+	    botonmenu2.addClass("botonhover");
+	    botonmenu2.css("color", "#97c93c");
+	}*/
 
 })

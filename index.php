@@ -14,12 +14,9 @@
 
 			setTimeout(function(){
 				$('#s3slider').s3Slider({
-			        timeOut: 5000
+			        timeOut: 3000
 			    });	
 			}, 2000);	
-
-			var altura = $("#todo").height();
-			$("#barracentral").css("height", altura + 35);
 
 			var imageneshome = $("#imageneshome img");
 			imageneshome.css("opacity", 0.5);
@@ -47,16 +44,22 @@
 				    <ul id="s3sliderContent">
 				        <li class="s3sliderImage">
 				            <a href=""> <img src="images/slider-01.jpg" alt="1" /></a>
-                			<span class="left"><strong>SILLAS</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span></li>
+                			<span class="left"><strong>COUNTERS</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span></li>
 				        <li class="s3sliderImage">
 				            <a href=""> <img src="images/slider-02.jpg" alt="2" /></a>
-                			<span class="right"><strong>SOFAS</strong><br />Lorem ipsum ea irure sint Duis deserunt commodo labore elit.</span></li>
+                			<span class="right"><strong>SALAS DE ESPERA</strong><br />Lorem ipsum ea irure sint Duis deserunt commodo labore elit.</span></li>
 				        <li class="s3sliderImage">
 				            <a href=""> <img src="images/slider-03.jpg" alt="3" /></a>
-                			<span class="left"><strong>ESCRITORIOS</strong><br />Lorem ipsum nostrud Duis dolor occaecat ad.</span></li>
+                			<span class="left"><strong>SALAS DE REUNIONES</strong><br />Lorem ipsum nostrud Duis dolor occaecat ad.</span></li>
 				        <li class="s3sliderImage">
 				            <a href=""> <img src="images/slider-04.jpg" alt="4" /></a>
-                			<span class="right"><strong>CORTINAS</strong><br />Lorem ipsum enim nostrud qui sit ut aute.</span></li>
+                			<span class="right"><strong>GERENCIAS</strong><br />Lorem ipsum enim nostrud qui sit ut aute.</span></li>
+                	    <li class="s3sliderImage">
+				            <a href=""> <img src="images/slider-05.jpg" alt="4" /></a>
+                			<span class="left"><strong>PUESTOS</strong><br />Lorem ipsum enim ostrud qui sit ut aute nostrud qui sit ut aute.</span></li>
+                		<li class="s3sliderImage">
+				            <a href=""> <img src="images/slider-06.jpg" alt="4" /></a>
+                			<span class="right"><strong>ARCHIVO MÓVIL</strong><br />Lorem ipostrud qui sit ut aute sum enim nostrud qui sit ut aute.</span></li>                			
 				        <div class="clear s3sliderImage"></div>
 				    </ul>
 				</div>				

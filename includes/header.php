@@ -5,7 +5,4 @@
 	<div id="subtitulo">
 		Proyectos Integrales
 	</div>
-	<div id="subtitulo2">
-		Proyectos Integrales
-	</div>
 </header>
