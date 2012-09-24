@@ -4,26 +4,22 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<?php include("includes/head.php"); ?>
-	<script type="text/javascript" src="js/jquery.adipoli.min.js"></script>
+	<script type="text/javascript" src="js/jquery.adipoli.js"></script>
 	<link rel="stylesheet" href="css/adipoli.css">
 	<script type="text/javascript">
 		$(document).on("ready", function(){
 
-			/*setTimeout(function(){
-				var altura = $("#todo").height();
-				$("#barracentral").css("height", altura+30);
-				crecermedio();
-			}, 500);*/
+			$('#foto1').adipoli({
+				'startEffect' : 'overlay',
+				'hoverEffect' : 'foldLeft'
+			});
+
+			setTimeout(function (){
+				$('#foto1').click();
+			}, 1500);
 
 		});
 	</script>
-	<style type="text/css">
-		/*#todo img{
-			border: 5px solid #FFF;
-			border-radius: 5px;
-			box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
-		}*/
-	</style>
 </head>
 <body>
 	<div id="fondo"></div>

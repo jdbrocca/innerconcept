@@ -38,8 +38,27 @@
 					});
 			});
 
+			$("#lupa").hover(function(){
+				$("#mensajelupa").slideDown();
+			}, function(){
+				$("#mensajelupa").slideUp();
+			})
+
 		});
 	</script>
+	<style type="text/css">
+		#lupa{
+			position: absolute;
+			top: 330px;
+			left: -30px;
+			z-index: 9999;
+		}
+
+		#mensajelupa{
+			font-size: 14px;
+			display: none;
+		}
+	</style>
 </head>
 <body>
 	<div id="fondo"></div>
@@ -69,7 +88,13 @@
 				</div>
 				<div class="galeriaimg">
 					<a href="images/counters/counter07.jpg" alt="COUNTER 07"><img src="images/counters/counter07-sm.jpg" border="0"></a>
-				</div>			
+				</div>		
+				<div id="lupa">
+					<img src="images/lupa.png">
+				</div>	
+				<div id="mensajelupa">
+					Click en la imagen para ver mas detalles.
+				</div>
 			</div>
 			<div id="leftside">
 				<div style="float:left; width:50px;">
