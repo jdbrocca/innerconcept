@@ -7,21 +7,12 @@
 	<script type="text/javascript" src="js/jquery.eachStep.min.js"></script>
 	<script type="text/javascript">
 		$(document).on("ready", function(){
-
-
-			
 			$(".producto").css("opacity", 0);
-			var np = 0;
-			/*function esperar(){
-				setTimeout(function(){
-					alert("a");
-				}, 2000);
-			};*/
+
 			setTimeout(function(){
 				/*$(".producto").css("display", "block");*/
 				$('.producto').eachStep(150, function(i, el, duration){
 				    $(el).animate({ opacity: 0.5});
-				    np++;
 				});
 			},500);
 
@@ -44,7 +35,7 @@
 		<?php include("includes/menu.php"); ?>
 		<section id="todo">
 			<div id="leftside">
-				<div class="producto">COUNTERS<a href="#"><img src="images/producto01.jpg" border="0"></a></div>
+				<div class="producto">COUNTERS<a href="counters.php"><img src="images/producto01.jpg" border="0"></a></div>
 				<div class="producto">SALA DE ESPERAS<a href="#"><img src="images/producto02.jpg" border="0"></a></div>
 				<div class="producto">MESAS DE REUNIONES<a href="#"><img src="images/producto03.jpg" border="0"></a></div>
 				<div class="producto">GERENCIAS<a href="#"><img src="images/producto04.jpg" border="0"></a></div>

@@ -6,7 +6,7 @@
 html, body{
 	background-color: #0f0e0c;
 	color: #FFF;
-	font-family: CenturyGothic;
+	font-family: "Century Gothic";
 	font-size: 16px;
 	height: 100%;
 }
@@ -109,6 +109,26 @@ html, body{
 	margin-right: 10px;
 }
 
+#leftside #galeria{
+	border: 5px solid #FFF;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+	height: 390px;
+}
+
+#galeria #caption{
+	background-color: #bbb;
+	color: #000;
+	font-weight: bold;
+	height: 25px;
+	opacity: 0;
+	filter:alpha(opacity=30);
+	padding: 5px 10px 0px;
+	position: relative;
+	text-align: right;
+	top:-50px;
+	width: 620px;
+}
+
 #principal{
 	margin: 0px auto;
 	overflow: hidden;
@@ -122,6 +142,11 @@ html, body{
 	float: left;
 	position: relative;
 	width: 235px;
+}
+
+#rightside .galeriaimg{
+	display: inline-block;
+	margin: 0px 5px 5px 0px;
 }
 
 #todo{
@@ -174,7 +199,7 @@ html, body{
 
 #menu a{
 	color: #FFF;
-	padding: 10px 38px;
+	padding: 10px 46px;
 	text-align: center;
 	text-decoration: none;
 }

@@ -34,7 +34,7 @@
 		<?php include("includes/menu.php"); ?>
 		<section id="todo">
 			<h1><img src="images/la-empresa.jpg" class="Lpic" id="foto1">La Empresa</h1>
-			<p>Lorem aaa ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit erat ut odio aliquam eleifend dignissim vel sem. Duis quis mattis nibh. Phasellus purus lectus, commodo non tempor ac, sollicitudin sit amet nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc luctus tortor at ante porta euismod. Proin viverra mauris vel elit porttitor sodales. Cras pretium adipiscing pharetra.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit erat ut odio aliquam eleifend dignissim vel sem. Duis quis mattis nibh. Phasellus purus lectus, commodo non tempor ac, sollicitudin sit amet nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc luctus tortor at ante porta euismod. Proin viverra mauris vel elit porttitor sodales. Cras pretium adipiscing pharetra.</p>
 			<p>Suspendisse pellentesque facilisis neque ut imperdiet. Aenean hendrerit lobortis semper. Sed sed orci et tellus semper accumsan non non lacus. Pus. Cras at magna ut metus laoreet accumsan. Fusce egestas velit interdum orci euismod et semper enim rhoncus. Suspendisse velit nisl, mattis vitae mattis vel, faucibus posuere diam. In ac quam eget arcu rutrum fermentum.</p>
 		</section>
 		<?php include("includes/footer.php"); ?>
