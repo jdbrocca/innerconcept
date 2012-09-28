@@ -14,7 +14,16 @@ function crecermedio(){
 
 $(document).on("ready", function(){
 
+	var anchopantalla = screen.width;
+	if (anchopantalla <= 360){
+		$("#menu a").css({
+			"padding-right": "35px",
+			"padding-left": "35px"
+		});
+	}
+
 	$("#todo").css("opacity", 0)
+	$("#barracentral").css("opacity", 0)
 
 	setTimeout(function(){
 		var altura = $("#todo").height();

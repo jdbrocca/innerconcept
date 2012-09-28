@@ -5,18 +5,26 @@
 	<title></title>
 	<?php include("includes/head.php"); ?>
 	<script type="text/javascript" src="js/jquery.adipoli.js"></script>
+	<script type="text/javascript" src="shadowbox/shadowbox.js"></script>
 	<link rel="stylesheet" href="css/adipoli.css">
+	<link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css">
 	<script type="text/javascript">
 		$(document).on("ready", function(){
 
-			$('#foto1').adipoli({
+			/*$('#oferta').adipoli({
 				'startEffect' : 'overlay',
 				'hoverEffect' : 'foldLeft'
 			});
-
-			setTimeout(function (){
-				$('#foto1').click();
+			
+			setTimeout(function(){
+				$('#oferta').click();
+			}, 1500);*/
+			$(".oferta").css("display", "none");
+			setTimeout(function(){
+				$(".oferta").fadeIn(2000);
 			}, 1500);
+			
+			Shadowbox.init();
 
 		});
 	</script>
@@ -29,10 +37,8 @@
 		<?php include("includes/header.php"); ?>
 		<?php include("includes/menu.php"); ?>
 		<section id="todo">
-			<h1><img src="images/la-empresa.jpg" class="Lpic" id="foto1">La Empresa</h1>
-			<p>Somos una empresa peruana especializada en la creación de mobiliario para espacios de trabajo que le ofrece soluciones integrales para facilitar su vida, para rodearlo de ambientes que vayan de la mano con lo funcional, armónico en líneas, colores texturas y diseños.</p>
-			<p>Hacemos realidad las grandes ideas de arquitectos y público en general.</p>
-			<p>Contamos con personal altamente especializado en cada una de nuestras líneas de productos.</p>
+			<h1>Ofertas del Mes</h1>
+			<p align="center"><a href="images/oferta-del-mes.jpg" rel="shadowbox"><img src="images/oferta-del-mes-sm.jpg" class="oferta"></a></p>	
 		</section>
 		<?php include("includes/footer.php"); ?>
 	</div>

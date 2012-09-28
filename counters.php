@@ -55,9 +55,10 @@
 		}
 
 		#mensajelupa{
-			font-size: 14px;
 			display: none;
-		}
+			font-size: 14px;
+			padding-left: 10px;
+		}	
 	</style>
 </head>
 <body>
@@ -67,7 +68,7 @@
 		<?php include("includes/header.php"); ?>
 		<?php include("includes/menu.php"); ?>
 		<section id="todo">
-			<div id="rightside" style="height:400px;">
+			<div id="rightside" style="height:350px;">
 				<div class="galeriaimg">
 					<a href="images/counters/counter01.jpg" alt="COUNTER 01"><img src="images/counters/counter01-sm.jpg" border="0"></a>
 				</div>
@@ -75,7 +76,7 @@
 					<a href="images/counters/counter02.jpg" alt="COUNTER 02"><img src="images/counters/counter02-sm.jpg" border="0"></a>
 				</div>
 				<div class="galeriaimg">
-					<a href="images/counters/counter03.jpg" alt="COUNTER 03"><img src="images/counters/counter03-sm.jpg" border="0"></a>
+					<a href="images/counters/counter03a.jpg" alt="COUNTER 03"><img src="images/counters/counter03-sm.jpg" border="0"></a>
 				</div>
 				<div class="galeriaimg">
 					<a href="images/counters/counter04.jpg" alt="COUNTER 04"><img src="images/counters/counter04-sm.jpg" border="0"></a>
@@ -89,6 +90,9 @@
 				<div class="galeriaimg">
 					<a href="images/counters/counter07.jpg" alt="COUNTER 07"><img src="images/counters/counter07-sm.jpg" border="0"></a>
 				</div>		
+				<div class="galeriaimg">
+					<a href="images/counters/counter08.jpg" alt="COUNTER 08"><img src="images/counters/counter08-sm.jpg" border="0"></a>
+				</div>	
 				<div id="lupa">
 					<img src="images/lupa.png">
 				</div>	

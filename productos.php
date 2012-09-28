@@ -40,20 +40,17 @@
 				<div class="producto">MESAS DE REUNIONES<a href="#"><img src="images/producto03.jpg" border="0"></a></div>
 				<div class="producto">GERENCIAS<a href="#"><img src="images/producto04.jpg" border="0"></a></div>
 				<div class="producto">PUESTOS OPERATIVOS<a href="#"><img src="images/producto05.jpg" border="0"></a></div>
+				<div class="producto">ARCHIVOS MOVILES<a href="#"><img src="images/producto13.jpg" border="0"></a></div>
 				<div class="producto">PANELERIA<a href="#"><img src="images/producto06.jpg" border="0"></a></div>
 				<div class="producto">COMEDORES<a href="#"><img src="images/producto07.jpg" border="0"></a></div>
 				<div class="producto">KITCHENETTES<a href="#"><img src="images/producto08.jpg" border="0"></a></div>
 				<div class="producto">PANELES PISO TECHO<a href="#"><img src="images/producto09.jpg" border="0"></a></div>
 				<div class="producto">SILLAS<a href="#"><img src="images/producto10.jpg" border="0"></a></div>
-				<div class="producto">SILLAS DE ESPERA<a href="#"><img src="images/producto11.jpg" border="0"></a></div>
-				<div class="producto">SILLAS DE COMEDORES<a href="#"><img src="images/producto12.jpg" border="0"></a></div>
+				<div class="producto">S. ESPERA/COMEDORES<a href="#"><img src="images/producto11.jpg" border="0"></a></div>
 			</div>
 			<div id="rightside">
 				<h1>Productos</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labor voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Ofrecemos la línea más completa de productos, para hacer de sus ambientes un lugar cómodo y placentero.</p>
 			</div>
 		</section>
 		<?php include("includes/footer.php"); ?>
